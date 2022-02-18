@@ -1,0 +1,40 @@
+.stations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.label {
+    font-weight: 700;
+    margin-right: 15px;
+}
+
+.stationoptions {
+    margin-bottom: 15px;
+}
+
+.buttons {
+    width: 50%;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: teal;
+    color: white;
+    border-radius: 4px;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid teal;
+    cursor: pointer;
+}
+
+.stationList {
+    font-size: large;
+    padding: 1%;
+}
+
+  
+  .buttons:hover,
+  .buttons:active {
+    background-color: #11acac;
+    border-color: #11acac;
+  }
